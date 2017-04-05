@@ -76,3 +76,5 @@ export const bot = (body, response, callback) => {
     callback('No text provided')
   }
 }
+
+export.bot = bot
