@@ -30,7 +30,6 @@ const replyMessage = (message) => {
     */
     if (result.action) {
       console.log('The conversation action is: ', result.action.slug)
-      console.log(result)
     }
 
     // If there is not any message return by Recast.AI for this current conversation
