@@ -41,7 +41,7 @@ const replyMessage = (message) => {
 
       if (product && product.value) {
         // Project detected by NER
-        console.log('Product detected' + product.value)
+        console.log('Product detected: ' + product.value)
 
         try {
           const response = await axios({
